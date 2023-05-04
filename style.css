@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    background-color: hsl(204, 43%, 93%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+}
+.title-top{
+    color:  hsl(179, 62%, 43%);
+    font-size: 18px;
+}
+
+
+#item-content-top-1{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+#item-content-top-2{
+    margin-top: 15px;
+    color: hsl(218, 22%, 67%);
+}
+
+
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-bottom{
+    height: 300px;
+    width: 844px;
+}
+
+
+.container-top{
+    height: 220px;
+    width: 844px;
+}
+
+.container-top{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.container-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left,
+.right{
+    height: 300px;
+    width: 844px;
+}
+
+
+
+.left{
+    background-color:  hsl(179, 62%, 43%);
+    flex: 1;
+    padding: 50px;
+    border-radius: 0 0 0px 10px;
+}
+
+.description{
+    color: #fff;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 10px;
+}
+
+.btn-price{
+    margin-top: 55px;
+ 
+}
+
+.btn-price a{
+    padding: 15px 90px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    background-color: hsl(71, 73%, 54%);
+}
+
+.subtitle{
+    margin-top: 15px;
+    color: hsl(204, 43%, 93%);
+}
+
+.price span{
+    color: hsl(204, 43%, 93%);
+}
+.price p{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.right{
+    background-color: #4abebd;
+    flex: 1;
+    padding: 50px;
+    border-radius: 0 0 10px 0px;
+}
+
+#item-1{
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.list{
+    margin-top: 20px;
+
+}
+
+.list li{
+    font-size: 15px;
+    line-height: 23px;
+    list-style-type: none;
+    color:hsl(204, 43%, 93%);
+}
